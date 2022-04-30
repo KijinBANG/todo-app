@@ -1,9 +1,10 @@
 import TodoTemplate from "./components/TodoTemplate";
+import TodoInsert from "./components/TodoInsert";
 
 const App = () => {
   return (
       <TodoTemplate>
-          Todo App 을 만들자
+          <TodoInsert />
       </TodoTemplate>
   );
 }
