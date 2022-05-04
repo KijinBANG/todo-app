@@ -25,4 +25,4 @@ const TodoListItem = ({todo, onRemove, onToggle}) => {
 
 }
 
-export default React.memp(TodoListItem);
+export default React.memo(TodoListItem);
